@@ -1,0 +1,147 @@
+nav {
+    background-color: #03591b;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav a {
+    float: left;
+    color:#fff;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+nav a:hover {
+    color:#ffecc4;
+    font-weight:550;
+}
+
+nav a.active {
+    color:#03591b;
+    background-color: #fff;
+}
+
+body {
+    padding:10px;
+    margin-top:75px;
+    padding-bottom:100px;
+    position:relative;
+}
+
+#page-container {
+    position:relative;
+    min-height:100vh;
+}
+
+#content-wrap {
+    padding-bottom:2.5rem;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    font-style:oblique;
+}
+
+img {
+    width:30%;
+    height:30%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#socials {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#socials a {
+    float: left;
+    color:#03591b;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+#socials a:hover {
+    color:#ffecc4;
+    font-weight:550;
+}
+
+#brickphoto {
+    float:left;
+    height: 20%;
+    width: 20%;
+    padding:25px;
+    padding-top:5px;
+}
+
+#portfolio {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#portfolio li {
+    padding:10px;
+}
+
+#portfolio a {
+    color:#03591b;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+#portfolio a:hover {
+    color:#ffecc4;
+    font-weight:550;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:70px;
+    padding:5px;
+    background-color: #03591b;
+    color:#fff;
+}
+
+footer a {
+    color:#fff;
+    text-decoration: none;
+    font-size:smaller;
+}
+
+footer a:hover {
+    color:#ffecc4;
+    font-weight:550;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:2.5rem;
+}
